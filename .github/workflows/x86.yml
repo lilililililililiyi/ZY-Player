@@ -2,8 +2,8 @@ name: x86-release-build
 
 on:
   push:
-    tags:
-      - x86
+    branches:
+      - master
 
 jobs:
   release:
